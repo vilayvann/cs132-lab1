@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Divide</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Divide</title>
 
-    <div class="cd-info">
-      <div class="cd-metadata">
-        <ul>
-          <li>
-            <h1>Name:</h1> Divide
-          </li>
-          <li>
-            <h1>Artist:</h1> Ed Sheeran
-          </li>
-          <li>
-            <h1>Year:</h1> 2017
-          </li>
-        </ul>
+  <style media="screen">
+    body {
+      background-color: rgb(41, 16, 8);
+    }
+    .list-group-item {
+      color: white;
+      padding: 0 0 5px 5px;
+    }
+    .center {
+      margin: auto;
+      width: 25%;
+      border: 3px solid black;
+      padding: 10px;
+      background-color: rgb(45, 38, 36);
+    }
+    .card-heading {
+      background-color: black;
+      color: white;
+    }
+
+    .cd-meta-li h6 {
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  <br><br>
+  <div class="center">
+    <div class="card">
+      <img class="card-img-top" src="https://static2.hypable.com/wp-content/uploads/2017/03/ed-sheeran-divide.jpg" alt="Divide by Ed Sheeran">
+      <div class="card-body">
+
+        <center>
+          <h3 class="card-heading">Metadata</h3>
+          <div class="cd-meta-li">
+            <span>Album:</span>
+            <h6 class="card-title">Divide</h6>
+          </div>
+          <div class="cd-meta-li">
+            <span>Artist:</span>
+            <h6 class="card-title">Ed Sheeran</h6>
+          </div>
+          <div class="cd-meta-li">
+            <span>Year:</span>
+            <h6 class="card-title">2017</h6>
+          </div>
+        </center>
       </div>
-
-      <div class="cd-artwork">
-        <img src="https://static2.hypable.com/wp-content/uploads/2017/03/ed-sheeran-divide.jpg" alt="Album Divide by Ed Sheeran">
+      <div class="card-body">
+          <center>
+            <h3 class="card-heading">Tracks</h3>
+            <ol class="list-group list-group-flush">
+              <li class="list-group-item"><a href="https://youtu.be/iKzRIweSBLA">Perfect</a></li>
+              <li class="list-group-item"><a href="https://youtu.be/7Qp5vcuMIlk">Castle on the Hill</a></li>
+              <li class="list-group-item"><a href="https://youtu.be/_dK2tDK9grQ">Shape of you</a></li>
+            </ol>
+          </center>
       </div>
-
-
-
     </div>
-  </body>
+  </div>
+
+</body>
+
 </html>
